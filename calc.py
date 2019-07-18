@@ -1,18 +1,18 @@
-num1=input("what is the first number? ")
-op = input("What operation will you be using? ")
-num2=input ("What is the second number? ")
+num1=input("what is the first number? \n")
+op = input("What operation will you be using? \n")
+num2=input ("What is the second number? \n")
 
 
-if op == "+" or "add" or "addition" or "plus":
+if op == "+" or op == "add" or op == "addition" or op =="plus":
     total = int(num1) + int(num2)
     sym = "+"
-elif op == "-" or "subtract" or "minus":
+elif op == "-" or op == "subtract" or op == "minus":
      total = int(num1) - int(num2)
      sym = "-"
-elif op == "*" or "multiply" or "multiplication":
+elif op == "*" or op == "multiply" or op == "multiplication":
     total= int(num1) * int(num2)
     sym = "*"
-elif op == "/" or "divide" or "division":
+elif op == "/" or op == "divide" or op == "division":
     total= int(num1) / int(num2)
     sym = "/"
 
